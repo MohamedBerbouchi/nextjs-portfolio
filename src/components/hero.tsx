@@ -13,7 +13,7 @@ function Hero() {
             />
             <div className="max-w-[600px] text-center flex flex-col gap-2 mt-4">
                 <p className="text-lg font-semibold">Hey</p>
-                <p className="text-3xl font-extrabold">I'm Mohamed Berbouchi</p>
+                <p className="text-3xl font-extrabold">I&apos;m Mohamed Berbouchi</p>
                 <p className="text-2xl font-bold">Full-stack Developer</p>
                 <p className="font-sm font-thin ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque cupiditate aperiam modi, similique voluptate blanditiis tempore aspernatur omnis voluptatum beatae, dolore animi, repellat </p>
             </div>
