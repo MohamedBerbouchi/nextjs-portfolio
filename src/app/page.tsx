@@ -1,15 +1,19 @@
 import Menu from '@/components/menu';
-import { LampDemo } from '@/components/ui/lamp';
+import AboutMe from '../components/about-me';
+import Footer from '../components/footer';
+import Hero from '../components/hero';
 import { TracingBeam } from '../components/ui/tracing-beam';
 export default function Home() {
   return (
     <TracingBeam>
       <div className="">
-        <LampDemo />
-        <LampDemo />
-        <LampDemo />
-        <h1 className="bg-main_background text-foreground">hello word</h1>
-        <Menu />
+        <main className='px-10  '>
+          <Menu />
+          <Hero />
+          <AboutMe />
+
+          <Footer />
+        </main>
 
       </div>
     </TracingBeam>
