@@ -69,19 +69,17 @@ export const SKILLS: TSkills = {
 
 export const PROJECTS: TProjectProps[] = [
   {
-    title: "Node Project",
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus eius ducimus rerum. Quo similique nihil necessitatibus.",
-    image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    github_link: "https://github.com/",
-    demo_link: "https://google.com/",
+    title: "Student management app",
+    desc: "A specialized web application has been designed for student management within the vocational training institution, utilizing modern technologies.",
+    image: "/images/project-1.png",
+    github_link: "https://github.com/MohamedBerbouchi/project-school",
+    demo_link: "https://berbouchi.000webhostapp.com",
   },
   {
-    title: "Node Project",
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus eius ducimus rerum. Quo similique nihil necessitatibus.",
-    image:
-      "https://plus.unsplash.com/premium_photo-1683288662019-c92caea8276d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    github_link: "https://github.com/",
-    demo_link: "https://google.com/",
+    title: "React Portfolio",
+    desc: "The portfolio is crafted with a mobile-first approach, ensuring a seamless experience across various devices and screen sizes.",
+    image: "/images/project-2.png",
+    github_link: "https://github.com/MohamedBerbouchi/nextjs-portfolio",
+    demo_link: "https://nextjs-portfolio-two-ashen.vercel.app/",
   },
 ];
