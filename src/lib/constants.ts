@@ -4,6 +4,15 @@ type TSocials = {
   link: string;
 };
 
+export type TSkillItem = {
+  label: string;
+  level: "Experienced" | "Intermediate" | "basic";
+};
+export type TSkills = {
+  front_end: TSkillItem[];
+  back_end: TSkillItem[];
+};
+
 export const SOCIALS: TSocials[] = [
   {
     icon: Linkedin,
@@ -18,3 +27,54 @@ export const SOCIALS: TSocials[] = [
     link: "mohamed.berbouchi.edu@gmail.com",
   },
 ];
+
+export const SKILLS: TSkills = {
+  front_end: [
+    {
+      label: "HTML",
+      level: "Experienced",
+    },
+    {
+      label: "CSS",
+      level: "Experienced",
+    },
+    {
+      label: "Javascript",
+      level: "Intermediate",
+    },
+    {
+      label: "React",
+      level: "Intermediate",
+    },
+    {
+      label: "NextJs",
+      level: "Experienced",
+    },
+    {
+      label: "Tailwind",
+      level: "basic",
+    },
+  ],
+  back_end: [
+    {
+      label: "Node Js",
+      level: "Intermediate",
+    },
+    {
+      label: "Express",
+      level: "Intermediate",
+    },
+    {
+      label: "MySQL",
+      level: "Intermediate",
+    },
+    {
+      label: "MongoDB",
+      level: "Intermediate",
+    },
+    {
+      label: "Laravel & PHP",
+      level: "Intermediate",
+    },
+  ],
+};

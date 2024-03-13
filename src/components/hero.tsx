@@ -21,7 +21,7 @@ function Hero() {
                 <Button className=''>
                     Projects
                 </Button>
-                <Button className='bg-[#378CE7] text-white'>
+                <Button className='bg-main text-white'>
                     Contact me
                 </Button>
             </div>
