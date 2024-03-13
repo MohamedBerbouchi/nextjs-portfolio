@@ -5,7 +5,7 @@ const poppins = Poppins({ subsets: ["latin"], weight: ['100', '200', "300", "400
 
 function AboutMe() {
     return (
-        <section id="about-me" className={cn(poppins.className, "flex flex-col md:flex-row md:gap-14  pt-16 pb-40")}>
+        <section id="about-me" className={cn(poppins.className, "flex flex-col md:flex-row md:gap-14  pt-16 pb-20")}>
 
             <Image src='/images/about-me-img.png' alt='' width={447} height={447}
                 className="rounded-[29px] max-w-full max-h-[300px] md:max-h-[400px] object-cover object-center"

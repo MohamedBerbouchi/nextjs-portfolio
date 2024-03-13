@@ -1,5 +1,5 @@
 'use client'
-import { BadgeInfo, CircleUserRound, Home } from 'lucide-react';
+import { BadgeInfo, CircleUserRound, Home, PencilRuler, SquareCode } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { cn } from '../lib/utils';
 import ThemeToggle from './theme-toggle';
@@ -28,6 +28,10 @@ function Menu() {
             }>
                 <a href="#home" className='rounded-full  p-3 bg-main text-white'><Home /></a>
                 <a href="#about-me" className='rounded-full  p-3'><BadgeInfo /></a>
+                <a href="#skills" className='rounded-full  p-3'><SquareCode /></a>
+
+                <a href="#projects" className='rounded-full  p-3'><PencilRuler /></a>
+
                 <a href="#contact" className='rounded-full  p-3'> <CircleUserRound /></a>
                 <ThemeToggle />
             </menu>

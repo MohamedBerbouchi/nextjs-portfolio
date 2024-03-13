@@ -5,7 +5,7 @@ import SkillCard from "./skill-card"
 function Skills() {
 
     return (
-        <section id='skills' className="space-y-20">
+        <section id='skills' className="space-y-20 pt-20">
             <div className="text-center">
                 <h3 className="text-[12px] text-muted-foreground">What Skills I Have</h3>
                 <h2 className="font-bold text-3xl">My Experience</h2>

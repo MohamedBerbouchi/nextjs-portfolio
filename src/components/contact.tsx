@@ -3,7 +3,7 @@ import Button from "./ui/button"
 
 function Contact() {
     return (
-        <section id='skills' className="space-y-10 mt-40">
+        <section id='contact' className="space-y-10 mt-40">
             <div className="text-center">
                 <h2 className="font-bold text-3xl">Contact me</h2>
             </div>

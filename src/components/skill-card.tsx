@@ -1,5 +1,5 @@
 import { BadgeCheck } from "lucide-react"
-import { TSkillItem } from "../lib/constants"
+import { TSkillItem } from "../lib/types"
 function SkillCard({ skills, title }: { skills: TSkillItem[], title: String }) {
     return (
         <div className="border p-5 space-y-10   max-w-[400px] rounded-lg">

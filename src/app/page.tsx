@@ -3,6 +3,7 @@ import AboutMe from '../components/about-me';
 import Contact from '../components/contact';
 import Footer from '../components/footer';
 import Hero from '../components/hero';
+import Projects from '../components/projects';
 import Skills from '../components/skills';
 import { TracingBeam } from '../components/ui/tracing-beam';
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
           <Hero />
           <AboutMe />
           <Skills />
+          <Projects />
           <Contact />
           <Footer />
         </main>

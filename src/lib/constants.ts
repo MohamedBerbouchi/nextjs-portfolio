@@ -1,17 +1,5 @@
-import { Github, Linkedin, MailPlus, type LucideIcon } from "lucide-react";
-type TSocials = {
-  icon: LucideIcon;
-  link: string;
-};
-
-export type TSkillItem = {
-  label: string;
-  level: "Experienced" | "Intermediate" | "basic";
-};
-export type TSkills = {
-  front_end: TSkillItem[];
-  back_end: TSkillItem[];
-};
+import { Github, Linkedin, MailPlus } from "lucide-react";
+import { TProjectProps, TSkills, TSocials } from "./types";
 
 export const SOCIALS: TSocials[] = [
   {
@@ -78,3 +66,22 @@ export const SKILLS: TSkills = {
     },
   ],
 };
+
+export const PROJECTS: TProjectProps[] = [
+  {
+    title: "Node Project",
+    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus eius ducimus rerum. Quo similique nihil necessitatibus.",
+    image:
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    github_link: "https://github.com/",
+    demo_link: "https://google.com/",
+  },
+  {
+    title: "Node Project",
+    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus eius ducimus rerum. Quo similique nihil necessitatibus.",
+    image:
+      "https://plus.unsplash.com/premium_photo-1683288662019-c92caea8276d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    github_link: "https://github.com/",
+    demo_link: "https://google.com/",
+  },
+];
