@@ -10,7 +10,7 @@ function Projects() {
             </div>
             <div className=" grid md:grid-cols-2 lg:grid-cols-2 gap-5 mt-20">
                 {PROJECTS.map((project, index) => (
-                    <ProjectCard project={project} />
+                    <ProjectCard key={index} project={project} />
                 ))}
             </div>
         </section>
