@@ -52,7 +52,7 @@ function Contact() {
                     <input required onChange={handleFormChange} name="name" type="text" placeholder="Your Name?" className=" mt-10  w-full px-4 py-2 rounded-lg text-xl bg-transparent border border-slate-400" />
                     <input required onChange={handleFormChange} name="email" type="email" placeholder="Your Email?" className=" mt-10  w-full px-4 py-2 rounded-lg text-xl bg-transparent border border-slate-400" />
                     <textarea required onChange={handleFormChange} name="message" id="" className=" mt-10  w-full h-48 px-4 py-2 rounded-lg text-xl bg-transparent border border-slate-400" placeholder="Messages..." ></textarea>
-                    <Button className="w-full disabled:bg-gray-200" disabled={loading}>
+                    <Button className="w-full disabled:bg-gray-200" >
                         {loading ? 'sending...' : 'send'}
                     </Button>
                     {error && <div className="text-red-500">{error}</div>}
