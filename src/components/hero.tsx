@@ -15,7 +15,8 @@ function Hero() {
                 <p className="text-lg font-semibold">Hey</p>
                 <p className="text-3xl font-extrabold">I&apos;m Mohamed Berbouchi</p>
                 <p className="text-2xl font-bold">Full-stack Developer</p>
-                <p className="font-sm font-thin ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque cupiditate aperiam modi, similique voluptate blanditiis tempore aspernatur omnis voluptatum beatae, dolore animi, repellat </p>
+                <p className="font-sm font-thin ">a budding Full Stack Developer excited about crafting awesome websites and applications.
+ </p>
             </div>
             <div className='mt-5 flex gap-10'>
                 <Button className=''>
