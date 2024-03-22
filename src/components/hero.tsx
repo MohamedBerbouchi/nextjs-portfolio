@@ -19,10 +19,10 @@ function Hero() {
  </p>
             </div>
             <div className='mt-5 flex gap-10'>
-                <Button href='#projects' className=''>
+                <Button   href='projects' className=''>
                     Projects
                 </Button>
-                <Button href='#contact' className='bg-main text-white'>
+                <Button href='contact' className='bg-main text-white'>
                     Contact me
                 </Button>
             </div>
