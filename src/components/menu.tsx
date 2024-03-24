@@ -6,7 +6,7 @@ import ThemeToggle from './theme-toggle';
 
 function Menu() {
     const [show, setShow] = useState(false)
-    const [active, setActive] = useState('Home')
+    const [active, setActive] = useState('#home')
     useEffect(() => {
         function handleScroll() {
             if (typeof window !== 'undefined') {
@@ -22,20 +22,61 @@ function Menu() {
         return () => window.removeEventListener('scroll', handleScroll)
     }, [])
    
+function scrollToView(link: string){
+    setActive(link)
+    if(typeof window !== 'undefined'){
+        document.getElementById(link)?.scrollIntoView()
+       }
+}
+useEffect(() => {
+    const handleScroll = () => {
+       ['home','about-me','skills', 'projects', 'contact'].forEach((section)=>{
+            const sectionRef = document.getElementById(section)
+           
+            if (sectionRef) {
+                const rect = sectionRef.getBoundingClientRect();
+                const windowHeight = window.innerHeight;
+        
+                // Check if any part of the section is within the viewport
+                const isVisible = (
+                  (rect.top >= 0 && rect.top < windowHeight) ||  // Top visible
+                  (rect.bottom > 0 && rect.bottom <= windowHeight) || // Bottom visible
+                  (rect.height > 0 &&  // Entire element inside viewport
+                    rect.top < windowHeight &&
+                    rect.bottom > 0)
+                );
+        
+                // Do something when the section becomes visible
+                if (isVisible) {
+                  console.log("Section is visible!");
+                  setActive(section)
+                  // You can replace this with your desired logic (e.g., change styles)
+                }
+              }
+       })
+    
+    };
 
+    // Add event listener for scroll
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      // Remove event listener on component unmount to prevent memory leaks
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []); // 
 
     return (
         <>
             <menu className={
-                cn('bg-background/30 opacity-0 scale-0  transition-transform backdrop-blur-md  duration-300   fixed bottom-4 left-[50%] translate-x-[-50%] flex justify-around w-[300px]  border border-primary px-5 py-1 rounded-2xl  ',
+                cn('cursor-pointer bg-background/30 opacity-0 scale-0  transition-transform backdrop-blur-md  duration-300   fixed bottom-4 left-[50%] translate-x-[-50%] flex justify-around w-[300px]  border border-primary px-5 py-1 rounded-2xl  ',
                     show ? 'opacity-1 scale-1' : 'opacity-0 scale-0'
                 )
             }>
                 {MENU.map((item, i) => {
                     const Icon = item.icon
-                    return <a onClick={()=>setActive(item.title)} href={item.link} className={cn(
+                    return <li key={i} onClick={()=> scrollToView(item.link)}  className={cn(
                         'group  rounded-full   p-3 relative  transition-all ease-in duration-200   group-hover:bg-opacity-0',
-                        active=== item.title &&  'bg-main text-white'
+                        active=== item.link &&  'bg-main text-white'
                     )}>
                         <Icon />
                         <div
@@ -53,7 +94,7 @@ function Menu() {
                             </div>
                         </div>
 
-                    </a>
+                    </li>
                 })}
 
                 {/* <a href="#about-me" className='rounded-full  p-3'><BadgeInfo /></a>

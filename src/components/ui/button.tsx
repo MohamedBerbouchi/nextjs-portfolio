@@ -10,8 +10,6 @@ interface TButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
 function Button({ children, className,href, ...props }: TButtonProps) {
 
     function handleClick(){
-        console.log('hhhhhhhhh')
-        console.log('href',href)
        if(typeof window !== 'undefined'){
         document.getElementById(href ?? '')?.scrollIntoView()
        }

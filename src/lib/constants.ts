@@ -92,26 +92,26 @@ export  const MENU = [
   {
       title: 'Home',
       icon: Home  ,
-      link: '#home'
+      link: 'home'
   },
   {
       title: 'About me',
       icon:  BadgeInfo  ,
-      link: '#about-me'
+      link: 'about-me'
   },
   {
       title: 'Experience',
       icon:  SquareCode ,
-      link: '#skills'
+      link: 'skills'
   },
   {
       title: 'Projects',
       icon:  PencilRuler ,
-      link: '#projects'
+      link: 'projects'
   },
   {
       title: 'Contact me',
       icon:  CircleUserRound  ,
-      link: '#contact'
+      link: 'contact'
   },
 ]
