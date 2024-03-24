@@ -7,6 +7,8 @@ export type TProjectProps = {
   image: string | StaticImport;
   github_link: string;
   demo_link: string;
+  tags: string[]
+
 };
 
 export type TSocials = {

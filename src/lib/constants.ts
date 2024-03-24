@@ -1,4 +1,4 @@
-import { Github, Linkedin, MailPlus } from "lucide-react";
+import { BadgeInfo, CircleUserRound, Github, Home, Linkedin, MailPlus, PencilRuler, SquareCode } from "lucide-react";
 import { TProjectProps, TSkills, TSocials } from "./types";
 
 export const SOCIALS: TSocials[] = [
@@ -74,6 +74,7 @@ export const PROJECTS: TProjectProps[] = [
     image: "/images/project-1.png",
     github_link: "https://github.com/MohamedBerbouchi/project-school",
     demo_link: "https://berbouchi.000webhostapp.com",
+    tags:['react','Tailwind', 'nextjs']
   },
   {
     title: "React Portfolio",
@@ -81,5 +82,36 @@ export const PROJECTS: TProjectProps[] = [
     image: "/images/project-2.png",
     github_link: "https://github.com/MohamedBerbouchi/nextjs-portfolio",
     demo_link: "https://nextjs-portfolio-two-ashen.vercel.app/",
+    tags:['Laravel','php', 'MySQL']
+
   },
 ];
+
+
+export  const MENU = [
+  {
+      title: 'Home',
+      icon: Home  ,
+      link: '#home'
+  },
+  {
+      title: 'About me',
+      icon:  BadgeInfo  ,
+      link: '#about-me'
+  },
+  {
+      title: 'Experience',
+      icon:  SquareCode ,
+      link: '#skills'
+  },
+  {
+      title: 'Projects',
+      icon:  PencilRuler ,
+      link: '#projects'
+  },
+  {
+      title: 'Contact me',
+      icon:  CircleUserRound  ,
+      link: '#contact'
+  },
+]
