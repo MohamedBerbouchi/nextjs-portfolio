@@ -6,7 +6,7 @@ import ThemeToggle from './theme-toggle';
 
 function Menu() {
     const [show, setShow] = useState(false)
-    const [active, setActive] = useState('#home')
+    const [active, setActive] = useState('home')
     useEffect(() => {
         function handleScroll() {
             if (typeof window !== 'undefined') {
@@ -28,42 +28,42 @@ function scrollToView(link: string){
         document.getElementById(link)?.scrollIntoView()
        }
 }
-useEffect(() => {
-    const handleScroll = () => {
-       ['home','about-me','skills', 'projects', 'contact'].forEach((section)=>{
-            const sectionRef = document.getElementById(section)
+// useEffect(() => {
+//     const handleScroll = () => {
+//        ['home','about-me','skills', 'projects', 'contact'].forEach((section)=>{
+//             const sectionRef = document.getElementById(section)
            
-            if (sectionRef) {
-                const rect = sectionRef.getBoundingClientRect();
-                const windowHeight = window.innerHeight;
+//             if (sectionRef) {
+//                 const rect = sectionRef.getBoundingClientRect();
+//                 const windowHeight = window.innerHeight;
         
-                // Check if any part of the section is within the viewport
-                const isVisible = (
-                  (rect.top >= 0 && rect.top < windowHeight) ||  // Top visible
-                  (rect.bottom > 0 && rect.bottom <= windowHeight) || // Bottom visible
-                  (rect.height > 0 &&  // Entire element inside viewport
-                    rect.top < windowHeight &&
-                    rect.bottom > 0)
-                );
+//                 // Check if any part of the section is within the viewport
+//                 const isVisible = (
+//                   (rect.top >= 0 && rect.top < windowHeight) ||  // Top visible
+//                   (rect.bottom > 0 && rect.bottom <= windowHeight) || // Bottom visible
+//                   (rect.height > 0 &&  // Entire element inside viewport
+//                     rect.top < windowHeight &&
+//                     rect.bottom > 0)
+//                 );
         
-                // Do something when the section becomes visible
-                if (isVisible) {
-                  console.log("Section is visible!");
-                  setActive(section)
-                  // You can replace this with your desired logic (e.g., change styles)
-                }
-              }
-       })
+//                 // Do something when the section becomes visible
+//                 if (isVisible) {
+//                   console.log("Section is visible!");
+//                   setActive(section)
+//                   // You can replace this with your desired logic (e.g., change styles)
+//                 }
+//               }
+//        })
     
-    };
+//     };
 
-    // Add event listener for scroll
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      // Remove event listener on component unmount to prevent memory leaks
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []); // 
+//     // Add event listener for scroll
+//     window.addEventListener('scroll', handleScroll);
+//     return () => {
+//       // Remove event listener on component unmount to prevent memory leaks
+//       window.removeEventListener('scroll', handleScroll);
+//     };
+//   }, []); 
 
     return (
         <>
