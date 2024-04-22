@@ -72,7 +72,7 @@ export const PROJECTS: TProjectProps[] = [
     title: "Student management app",
     desc: "A specialized web application has been designed for student management within the vocational training institution, utilizing modern technologies.",
     image: "/images/project-1.png",
-    github_link: "https://github.com/MohamedBerbouchi/project-school",
+    github_link: "https://github.com/MohamedBerbouchi/project-gestion-stagiaires",
     demo_link: "https://berbouchi.000webhostapp.com",
     tags:['react','Tailwind', 'nextjs']
   },
