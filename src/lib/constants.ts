@@ -74,15 +74,15 @@ export const PROJECTS: TProjectProps[] = [
     image: "/images/project-1.png",
     github_link: "https://github.com/MohamedBerbouchi/project-gestion-stagiaires",
     demo_link: "https://berbouchi.000webhostapp.com",
-    tags:['react','Tailwind', 'nextjs']
+    tags:[ 'Laravel','php', 'MySQL']
   },
   {
     title: "React Portfolio",
     desc: "The portfolio is crafted with a mobile-first approach, ensuring a seamless experience across various devices and screen sizes.",
     image: "/images/project-2.png",
-    github_link: "https://github.com/MohamedBerbouchi/nextjs-portfolio",
+    github_link: "https://berbouchi.vercel.app/",
     demo_link: "https://nextjs-portfolio-two-ashen.vercel.app/",
-    tags:['Laravel','php', 'MySQL']
+    tags:['react','Tailwind', 'nextjs']
 
   },
 ];
