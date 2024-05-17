@@ -95,7 +95,7 @@ export const PROJECTS: TProjectProps[] = [
 
   },
   {
-    title: "E-commerce website",
+    title: "E-commerce website(comming soon)",
     desc: "The portfolio is crafted with a mobile-first approach, ensuring a seamless experience across various devices and screen sizes.",
     image: "/images/project-4.svg",
     github_link: "https://github.com/MohamedBerbouchi/nextjs-portfolio",
