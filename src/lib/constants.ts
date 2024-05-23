@@ -95,14 +95,23 @@ export const PROJECTS: TProjectProps[] = [
 
   },
   {
-    title: "E-commerce website(comming soon)",
-    desc: "The portfolio is crafted with a mobile-first approach, ensuring a seamless experience across various devices and screen sizes.",
-    image: "/images/project-4.svg",
-    github_link: "https://github.com/MohamedBerbouchi/nextjs-portfolio",
-    demo_link: "https://nextjs-portfolio-two-ashen.vercel.app/",
-    tags:['php', 'MySQL']
+    title: "Gestion de conditionnement",
+    desc: "une plateforme de gestion de conditionnement.",
+    image: "/images/project-5.png",
+    github_link: "https://github.com/MohamedBerbouchi/stage-project/tree/main",
+    demo_link: "https://github.com/MohamedBerbouchi/stage-project/tree/main",
+    tags:['Laravel','Mysql', 'bootstrap', 'html&css']
 
   },
+  // {
+  //   title: "E-commerce website(comming soon)",
+  //   desc: "The portfolio is crafted with a mobile-first approach, ensuring a seamless experience across various devices and screen sizes.",
+  //   image: "/images/project-4.svg",
+  //   github_link: "https://github.com/MohamedBerbouchi/nextjs-portfolio",
+  //   demo_link: "https://nextjs-portfolio-two-ashen.vercel.app/",
+  //   tags:['php', 'MySQL']
+
+  // },
 ];
 
 
