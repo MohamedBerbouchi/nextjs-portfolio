@@ -80,7 +80,7 @@ export const PROJECTS: TProjectProps[] = [
     title: "React Portfolio",
     desc: "The portfolio is crafted with a mobile-first approach, ensuring a seamless experience across various devices and screen sizes.",
     image: "/images/project-2.png",
-    github_link: "https://berbouchi.vercel.app/",
+    github_link: "https://github.com/MohamedBerbouchi/nextjs-portfolio",
     demo_link: "https://nextjs-portfolio-two-ashen.vercel.app/",
     tags:['react','Tailwind', 'nextjs']
 
