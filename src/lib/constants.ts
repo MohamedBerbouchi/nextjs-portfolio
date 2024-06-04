@@ -142,3 +142,27 @@ export  const MENU = [
       link: 'contact'
   },
 ]
+
+// REAL STATE STACK
+// ------Stack
+// ======>front
+// react 
+// sass
+// react-router-dom (for router & fetch data)
+// react-quill (editor)
+// react-leaflet (for maps)
+// cloudinary react - (https://cloudinary.com/documentation/react_image_and_video_upload)
+// dompurify (sanitiz) in post desc
+// timeago.js
+// socket.io-client
+// zustand
+// =======>back
+// express
+// prisma
+// mongodb
+// cors
+// cookie-parser
+// jsonwebtoken
+// bcyript
+// socket.io
+// ---------
