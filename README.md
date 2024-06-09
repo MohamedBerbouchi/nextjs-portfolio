@@ -4,25 +4,25 @@
 First, run the development server:
  
 ### Front-end
-  -react 
-  -sass
-  -react-router-dom (for router & fetch data)
-  -react-quill (editor)
-  -react-leaflet (for maps)
-  -cloudinary react - (https://cloudinary.com/documentation/react_image_and_video_upload)
-  -dompurify (sanitiz) in post desc
-  -timeago.js
-  -socket.io-client
-  -zustand
+  - react 
+  - sass
+  - react-router-dom (for router & fetch data)
+  - react-quill (editor)
+  - react-leaflet (for maps)
+  - cloudinary react - (https://cloudinary.com/documentation/react_image_and_video_upload)
+  - dompurify (sanitiz) in post desc
+  - timeago.js
+  - socket.io-client
+  - zustand
 ### Back-end
-  -express
-  -prisma
-  -mongodb
-  -cors
-  -cookie-parser
-  -jsonwebtoken
-  -bcyript
-  -socket.io
+  - express
+  - prisma
+  - mongodb
+  - cors
+  - cookie-parser
+  - jsonwebtoken
+  - bcyript
+  - socket.io
 
 
 ![6](https://github.com/MohamedBerbouchi/nextjs-portfolio/assets/82718864/7d6b005a-c234-44ad-b68f-996e4622b405)
