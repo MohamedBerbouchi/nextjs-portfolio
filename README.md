@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
+ 
 ## Getting Started
 
 First, run the development server:
+ 
+### Front-end
+  -react 
+  -sass
+  -react-router-dom (for router & fetch data)
+  -react-quill (editor)
+  -react-leaflet (for maps)
+  -cloudinary react - (https://cloudinary.com/documentation/react_image_and_video_upload)
+  -dompurify (sanitiz) in post desc
+  -timeago.js
+  -socket.io-client
+  -zustand
+### Back-end
+  -express
+  -prisma
+  -mongodb
+  -cors
+  -cookie-parser
+  -jsonwebtoken
+  -bcyript
+  -socket.io
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![6](https://github.com/MohamedBerbouchi/nextjs-portfolio/assets/82718864/7d6b005a-c234-44ad-b68f-996e4622b405)
+![5](https://github.com/MohamedBerbouchi/nextjs-portfolio/assets/82718864/6c8235b3-52f4-4170-a739-4986d8a84191)
+![3](https://github.com/MohamedBerbouchi/nextjs-portfolio/assets/82718864/aa0d5f7e-7401-49a9-aed6-bfdea0ef5621)
+![4](https://github.com/MohamedBerbouchi/nextjs-portfolio/assets/82718864/d75bb007-aed0-4abb-a6ee-df662e7d38e8)
+![2](https://github.com/MohamedBerbouchi/nextjs-portfolio/assets/82718864/962021c9-fced-449e-9a3b-8c9255e237c4)
+![1](https://github.com/MohamedBerbouchi/nextjs-portfolio/assets/82718864/28774f4b-eb7f-438a-816f-2dde660fef59)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
