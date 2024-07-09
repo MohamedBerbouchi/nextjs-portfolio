@@ -89,8 +89,8 @@ export const PROJECTS: TProjectProps[] = [
     title: "Real Estat App",
     desc: "The portfolio is crafted with a mobile-first approach, ensuring a seamless experience across various devices and screen sizes.",
     image: "/images/project-3.png",
-    github_link: "https://github.com/MohamedBerbouchi/nextjs-portfolio",
-    demo_link: "https://nextjs-portfolio-two-ashen.vercel.app/",
+    github_link: "https://github.com/MohamedBerbouchi/real-estate-app",
+    demo_link: "https://github.com/MohamedBerbouchi/real-estate-app",
     tags:['React','Express', 'sass', 'MongoDb']
 
   },
