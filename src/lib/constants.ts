@@ -103,15 +103,7 @@ export const PROJECTS: TProjectProps[] = [
     tags:['Laravel','Mysql', 'bootstrap', 'html&css']
 
   },
-  // {
-  //   title: "E-commerce website(comming soon)",
-  //   desc: "The portfolio is crafted with a mobile-first approach, ensuring a seamless experience across various devices and screen sizes.",
-  //   image: "/images/project-4.svg",
-  //   github_link: "https://github.com/MohamedBerbouchi/nextjs-portfolio",
-  //   demo_link: "https://nextjs-portfolio-two-ashen.vercel.app/",
-  //   tags:['php', 'MySQL']
 
-  // },
 ];
 
 
