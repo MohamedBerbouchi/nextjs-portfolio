@@ -24,11 +24,11 @@ function ProjectCard({ project }: { project: TProjectProps }) {
                             <Github size={16} className="text-white hover:text-primary-foreground" />
                         </a>
                     </li>
-                    <li className="p-4  border  w-8 h-8 grid place-content-center rounded-full  mt-2 hover:bg-primary ">
+                    {/* <li className="p-4  border  w-8 h-8 grid place-content-center rounded-full  mt-2 hover:bg-primary ">
                         <a href={project.demo_link} target="_blank">
                             <Link size={14} className="text-white hover:text-primary-foreground" />
                         </a>
-                    </li>
+                    </li> */}
                 </div>
             </div>
         </div>
